@@ -1,16 +1,33 @@
-# React + Vite
+# ⚽ Fantacalcio Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Applicazione web sviluppata in React per gestire un'asta del fantacalcio in modo semplice e ordinato.
 
-Currently, two official plugins are available:
+L'applicazione nasce per supportare l'asta durante una videochiamata, permettendo di monitorare squadre, crediti disponibili e giocatori acquistati in tempo reale.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funzionalità
 
-## React Compiler
+- Creazione e gestione di più leghe
+- Salvataggio delle leghe in locale tramite LocalStorage
+- Creazione delle squadre partecipanti
+- Gestione dei crediti disponibili
+- Inserimento dei giocatori acquistati durante l'asta
+- Scelta del ruolo del giocatore
+- Aggiornamento automatico dei crediti dopo ogni acquisto
+- Rimozione dei giocatori con restituzione dei crediti spesi
+- Visualizzazione della rosa di ogni squadra
+- Eliminazione delle leghe create
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologie utilizzate
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- CSS
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installazione
+
+Clonare il repository:
+
+```bash
+git clone https://github.com/fedelongo02/fantacalcio-manager.git
