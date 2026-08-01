@@ -25,9 +25,3 @@ L'applicazione nasce per supportare l'asta durante una videochiamata, permettend
 - CSS
 - LocalStorage
 
-## 📦 Installazione
-
-Clonare il repository:
-
-```bash
-git clone https://github.com/fedelongo02/fantacalcio-manager.git
