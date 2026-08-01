@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #081c15;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  font-size: 16px;
+}
